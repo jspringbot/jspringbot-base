@@ -1,4 +1,4 @@
 jspringbot-base
 ===============
 
-base parent repository
+Use this as parent module project for your test project.

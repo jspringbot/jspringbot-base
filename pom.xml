@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+
+	<groupId>org.jspringbot</groupId>
+	<artifactId>jspringbot-base</artifactId>
+	<version>1.0-SNAPSHOT</version>
+  
+  <name>jspringbot-base</name>
+  <packaging>pom</packaging>
+
+  <properties>
+    <tag>all</tag>
+    <jspringbot.version>1.0-SNAPSHOT</jspringbot.version>
+  </properties>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <name>Sonatype Nexus Snapshots</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.jspringbot</groupId>
+          <artifactId>jspringbot-maven-plugin</artifactId>
+          <version>1.0-SNAPSHOT</version>
+          <configuration>
+            <includes>
+              <include>${tag}</include>
+            </includes>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.jspringbot</groupId>
+        <artifactId>jspringbot-selenium</artifactId>
+        <version>${jspringbot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jspringbot</groupId>
+        <artifactId>jspringbot-i18n</artifactId>
+        <version>${jspringbot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jspringbot</groupId>
+        <artifactId>jspringbot-db</artifactId>
+        <version>${jspringbot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jspringbot</groupId>
+        <artifactId>jspringbot-http</artifactId>
+        <version>${jspringbot.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
+
+

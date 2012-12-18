@@ -7,7 +7,7 @@ Use this as parent module project for your test project.
 
 To use this jspringbot-base you have to do the following:
 
-1. Ensure to add the following on `~/.m2/settings.xml`
+1. Ensure to add the following `repository` and `pluginRepository` on `~/.m2/settings.xml`
 ```xml
     <repository>
       <id>sonatype-nexus-snapshots</id>

@@ -92,6 +92,11 @@
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
+        <artifactId>jspringbot-date</artifactId>
+        <version>${jspringbot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-utils</artifactId>
         <version>${jspringbot.version}</version>
       </dependency>

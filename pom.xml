@@ -20,6 +20,7 @@
 
   <properties>
     <tag>all</tag>
+    <exclude/>
     <jspringbot.version>1.0-SNAPSHOT</jspringbot.version>
   </properties>
 
@@ -42,6 +43,9 @@
             <includes>
               <include>${tag}</include>
             </includes>
+            <excludes>
+              <exclude>${exclude}</exclude>
+            </excludes>
           </configuration>
         </plugin>
       </plugins>
@@ -108,6 +112,11 @@
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-http</artifactId>
+        <version>${jspringbot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jspringbot</groupId>
+        <artifactId>jspringbot-expression</artifactId>
         <version>${jspringbot.version}</version>
       </dependency>
     </dependencies>

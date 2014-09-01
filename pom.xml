@@ -58,6 +58,13 @@
     </developer>
   </developers>
 
+  <scm>
+    <connection>scm:git:https://github.com/jspringbot/jspringbot-base.git</connection>
+    <developerConnection>scm:git:https://github.com/jspringbot/jspringbot-base.git</developerConnection>
+    <url>https://github.com/jspringbot/jspringbot-base</url>
+    <tag>HEAD</tag>
+  </scm>
+
   <build>
     <pluginManagement>
       <plugins>

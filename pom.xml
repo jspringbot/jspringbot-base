@@ -17,11 +17,12 @@
 
   <name>jspringbot-base</name>
   <packaging>pom</packaging>
+  <url>http://jspringbot.org</url>
 
   <properties>
     <tag>all</tag>
     <exclude/>
-    <jspringbot.version>1.0-SNAPSHOT</jspringbot.version>
+    <jspringbot.version>1.0</jspringbot.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
   </properties>
 
@@ -38,13 +39,32 @@
     </pluginRepository>
   </pluginRepositories>
 
+  <developers>
+    <developer>
+      <id>owner</id>
+      <email>badong2210@yahoo.com</email>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>owner</id>
+      <email>alvinrdeleon@me.com</email>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+
   <build>
     <pluginManagement>
       <plugins>
         <plugin>
           <groupId>org.jspringbot</groupId>
           <artifactId>jspringbot-maven-plugin</artifactId>
-          <version>1.0-SNAPSHOT</version>
+          <version>${jspringbot.version}</version>
           <configuration>
             <includes>
               <include>${tag}</include>
@@ -134,42 +154,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
-  <profiles>
-    <profile>
-      <id>piraso</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.jspringbot</groupId>
-            <artifactId>jspringbot-maven-plugin</artifactId>
-            <dependencies>
-              <dependency>
-                <groupId>org.piraso</groupId>
-                <artifactId>jspringbot-context-logger-server</artifactId>
-                <version>1.0-SNAPSHOT</version>
-              </dependency>
-              <dependency>
-                <groupId>org.piraso</groupId>
-                <artifactId>log4j-context-logger-server</artifactId>
-                <version>1.1-SNAPSHOT</version>
-              </dependency>
-              <dependency>
-                <groupId>org.piraso</groupId>
-                <artifactId>sql-context-logger-server</artifactId>
-                <version>1.1-SNAPSHOT</version>
-              </dependency>
-              <dependency>
-                <groupId>org.piraso</groupId>
-                <artifactId>piraso-jspringbot-bridge-client</artifactId>
-                <version>1.0-SNAPSHOT</version>
-              </dependency>
-            </dependencies>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-  </profiles>
 </project>
 
 

@@ -38,7 +38,7 @@ To use this jspringbot-base you have to do the following:
     <parent>
       <groupId>org.jspringbot</groupId>
       <artifactId>jspringbot-base</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.1</version>
     </parent>
 ```
 

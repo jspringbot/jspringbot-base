@@ -11,7 +11,7 @@
 
   <groupId>org.jspringbot</groupId>
   <artifactId>jspringbot-base</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
 
   <name>jspringbot-base</name>
   <packaging>pom</packaging>
@@ -29,7 +29,7 @@
   </distributionManagement>
 
   <properties>
-    <tag>all</tag>
+    <t>all</t>
     <exclude />
     <jspringbot.version>1.1</jspringbot.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
@@ -78,7 +78,7 @@
           <version>${jspringbot.version}</version>
           <configuration>
             <includes>
-              <include>${tag}</include>
+              <include>${t}</include>
             </includes>
             <excludes>
               <exclude>${exclude}</exclude>

@@ -31,7 +31,7 @@
   <properties>
     <tag>all</tag>
     <exclude />
-    <jspringbot.version>1.1-SNAPSHOT</jspringbot.version>
+    <jspringbot.version>1.1</jspringbot.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
   </properties>
 

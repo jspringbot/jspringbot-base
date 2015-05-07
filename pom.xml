@@ -18,9 +18,9 @@
   <url>http://jspringbot.org</url>
 
   <properties>
-    <tag>all</tag>
+    <i>all</i>
     <exclude />
-    <jspringbot.version>1.2-SNAPSHOT</jspringbot.version>
+    <jspringbot.version>1.2</jspringbot.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
   </properties>
 
@@ -87,7 +87,7 @@
           <version>${jspringbot.version}</version>
           <configuration>
             <includes>
-              <include>${tag}</include>
+              <include>${i}</include>
             </includes>
             <excludes>
               <exclude>${exclude}</exclude>

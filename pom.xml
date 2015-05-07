@@ -172,6 +172,11 @@
         <artifactId>jspringbot-expression</artifactId>
         <version>${jspringbot.version}</version>
       </dependency>
+      <dependency>
+        <groupId>org.jspringbot</groupId>
+        <artifactId>jspringbot-office</artifactId>
+        <version>${jspringbot.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>

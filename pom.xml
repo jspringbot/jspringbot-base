@@ -11,7 +11,7 @@
 
   <groupId>org.jspringbot</groupId>
   <artifactId>jspringbot-base</artifactId>
-  <version>1.3-SNAPSHOT</version>
+  <version>1.4-SNAPSHOT</version>
 
   <name>jspringbot-base</name>
   <packaging>pom</packaging>

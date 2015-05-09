@@ -52,4 +52,14 @@ To use this jspringbot-base you have to do the following:
     </pluginRepository>
 ```
 
+*Note:* You can copy the [settings.xml](https://github.com/jspringbot/jspringbot-base/blob/master/settings.xml) in your `~/.m2/` directory if you don't have one yet.
+
+
+### Copyright and license
+
+Copyright 2012 JSpringBot
+
+Code licensed under [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+
 

@@ -7,7 +7,26 @@ Use this as parent module project for your test project.
 
 To use this jspringbot-base you have to do the following:
 
-1. Ensure to add the following `repository` and `pluginRepository` on `~/.m2/settings.xml`
+- Add the following parent tag to test modules on `pom.xml`.
+```xml
+    <parent>
+      <groupId>org.jspringbot</groupId>
+      <artifactId>jspringbot-base</artifactId>
+      <version>1.3</version>
+    </parent>
+```
+
+- When adding jspringbot dependencies no need to include `version`. Should be managed by `jspringbot-base` parent module.
+```xml
+    <dependency>
+      <groupId>org.jspringbot</groupId>
+      <artifactId>jspringbot-selenium</artifactId>
+    </dependency>
+```
+
+### When using jspringbot snapshot version
+
+- Ensure to add the following `repository` and `pluginRepository` on `~/.m2/settings.xml`
 ```xml
     <repository>
       <id>sonatype-nexus-snapshots</id>
@@ -31,23 +50,6 @@ To use this jspringbot-base you have to do the following:
         <updatePolicy>always</updatePolicy>
       </snapshots>
     </pluginRepository>
-```
-
-2. Add the following parent tag to test modules on `pom.xml`.
-```xml
-    <parent>
-      <groupId>org.jspringbot</groupId>
-      <artifactId>jspringbot-base</artifactId>
-      <version>1.2</version>
-    </parent>
-```
-
-3. When adding jspringbot dependencies no need to include `version`. Should be managed by `jspringbot-base` parent module.
-```xml
-    <dependency>
-      <groupId>org.jspringbot</groupId>
-      <artifactId>jspringbot-selenium</artifactId>
-    </dependency>
 ```
 
 

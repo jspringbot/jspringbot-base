@@ -18,8 +18,8 @@
   <url>http://jspringbot.org</url>
 
   <properties>
-    <tags>all</tags>
-    <i>all</i>
+    <tags/>
+    <i/>
     <exclude />
     <jspringbot.version>1.4-SNAPSHOT</jspringbot.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>

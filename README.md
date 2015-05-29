@@ -26,7 +26,7 @@ To use this jspringbot-base you have to do the following:
 
 ### When using jspringbot snapshot version
 
-- Ensure to add the following `repository` and `pluginRepository` on `~/.m2/settings.xml`
+- Ensure to add the following `repository` and `pluginRepository` on `pom.xml`
 ```xml
     <repository>
       <id>sonatype-nexus-snapshots</id>

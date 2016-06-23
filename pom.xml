@@ -11,16 +11,16 @@
 
   <groupId>org.jspringbot</groupId>
   <artifactId>jspringbot-base</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.5-SNAPSHOT</version>
 
   <name>jspringbot-base</name>
   <packaging>pom</packaging>
   <url>http://jspringbot.org</url>
 
   <properties>
-    <tags/>
-    <i/>
-    <e/>
+    <tags />
+    <i />
+    <e />
     <jspringbot.version>1.4</jspringbot.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
   </properties>

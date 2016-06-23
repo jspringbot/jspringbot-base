@@ -21,7 +21,7 @@
     <tags/>
     <i/>
     <e/>
-    <jspringbot.version>1.4-SNAPSHOT</jspringbot.version>
+    <jspringbot.version>1.4</jspringbot.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
   </properties>
 
@@ -171,11 +171,6 @@
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-expression</artifactId>
-        <version>${jspringbot.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jspringbot</groupId>
-        <artifactId>jspringbot-office</artifactId>
         <version>${jspringbot.version}</version>
       </dependency>
     </dependencies>

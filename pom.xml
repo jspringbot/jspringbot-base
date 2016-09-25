@@ -21,7 +21,7 @@
     <tags />
     <i />
     <e />
-    <jspringbot.version>1.5-SNAPSHOT</jspringbot.version>
+    <jspringbot.version>1.5</jspringbot.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
   </properties>
 

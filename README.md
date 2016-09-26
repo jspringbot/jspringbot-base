@@ -12,7 +12,7 @@ To use this jspringbot-base you have to do the following:
     <parent>
       <groupId>org.jspringbot</groupId>
       <artifactId>jspringbot-base</artifactId>
-      <version>1.3</version>
+      <version>1.5</version>
     </parent>
 ```
 

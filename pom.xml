@@ -11,7 +11,7 @@
 
   <groupId>org.jspringbot</groupId>
   <artifactId>jspringbot-base</artifactId>
-  <version>1.5.1-SNAPSHOT</version>
+  <version>6-SNAPSHOT</version>
 
   <name>jspringbot-base</name>
   <packaging>pom</packaging>
@@ -21,7 +21,7 @@
     <tags />
     <i />
     <e />
-    <jspringbot.version>1.5</jspringbot.version>
+    <jspringbot.version>1.6-SNAPSHOT</jspringbot.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
   </properties>
 

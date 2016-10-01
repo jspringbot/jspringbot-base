@@ -1,4 +1,4 @@
-jspringbot-base [![Build Status](https://buildhive.cloudbees.com/job/jspringbot/job/jspringbot-base/badge/icon)](https://buildhive.cloudbees.com/job/jspringbot/job/jspringbot-base/)
+jspringbot-base [![Build Status](https://travis-ci.org/jspringbot/jspringbot-base.svg?branch=master)](https://travis-ci.org/jspringbot/jspringbot-base)
 ===============
 
 Use this as parent module project for your test project.

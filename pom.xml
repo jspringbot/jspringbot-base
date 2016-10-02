@@ -22,8 +22,8 @@
     <i />
     <e />
     <jspringbot.version>1.6-SNAPSHOT</jspringbot.version>
-    <jspringbot.http.version>1.5.1</jspringbot.http.version>
-    <jspringbot.selenium.version>1.5.1</jspringbot.selenium.version>
+    <jspringbot.http.version>1.6-SNAPSHOT</jspringbot.http.version>
+    <jspringbot.selenium.version>1.6-SNAPSHOT</jspringbot.selenium.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
   </properties>
 

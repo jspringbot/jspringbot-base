@@ -22,6 +22,8 @@
     <i />
     <e />
     <jspringbot.version>1.6-SNAPSHOT</jspringbot.version>
+    <jspringbot.http.version>1.5.1</jspringbot.http.version>
+    <jspringbot.selenium.version>1.5.1</jspringbot.selenium.version>
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
   </properties>
 
@@ -122,7 +124,7 @@
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-selenium</artifactId>
-        <version>${jspringbot.version}</version>
+        <version>${jspringbot.selenium.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
@@ -177,7 +179,7 @@
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-http</artifactId>
-        <version>1.5.1</version>
+        <version>${jspringbot.http.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>

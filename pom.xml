@@ -23,6 +23,7 @@
     <i />
     <e />
     <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
+    <jspringbot.version>1.10-SNAPSHOT</jspringbot.version>
   </properties>
 
   <licenses>
@@ -87,7 +88,7 @@
         <plugin>
           <groupId>org.jspringbot</groupId>
           <artifactId>jspringbot-maven-plugin</artifactId>
-          <version>${project.version}</version>
+          <version>${jspringbot.version}</version>
           <configuration>
             <includes>
               <include>${tags},${i}</include>
@@ -167,78 +168,78 @@
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-pretty-logger</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
 
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-selenium</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-i18n</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-ssh</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-xml</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-json</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-csv</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-config</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-test-data</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-date</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-utils</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-db</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-http</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jspringbot</groupId>
         <artifactId>jspringbot-expression</artifactId>
-        <version>${project.version}</version>
+        <version>${jspringbot.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
